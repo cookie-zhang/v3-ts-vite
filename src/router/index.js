@@ -14,6 +14,10 @@ const router = createRouter({
         {
             path:'/list',
             component: ()=> import('../pages/list/index.vue')
+        },
+        {
+            path:'/vuex',
+            component: ()=> import('../pages/vuex/index.vue')
         }
     ]
 });
